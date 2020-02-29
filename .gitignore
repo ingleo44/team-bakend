@@ -3,3 +3,12 @@
 ################################################################################
 
 /Blogs.Business/bin
+/Blogs.Business/obj
+/Blogs.Repository/bin
+/Blogs.Repository/obj
+/Common/bin
+/Common/obj
+/Test/bin/Debug/netcoreapp3.1
+/Test/obj
+/WebApi/bin
+/WebApi/obj

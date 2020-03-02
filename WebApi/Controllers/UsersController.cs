@@ -38,6 +38,7 @@ namespace WebApi.Controllers
             return new ObjectResult(result.Where(q => q.Id == id));
         }
 
+        [AllowAnonymous]
         // POST: api/UsersController
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateUserViewModel value)
